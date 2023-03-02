@@ -151,11 +151,6 @@
         padding: 15px 5px 5px 15px;
     }
     
-    .pt2 { 
-        padding-top:40px ; 
-        margin-bottom:20px ;
-    }
-    
     footer p { 
         font-size:13px; 
         color:#ffffff; 
