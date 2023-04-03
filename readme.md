@@ -1,8 +1,181 @@
-<style>
+<footer>
+    <div class="container bottom_border">
+
+        <div class="row-footer">
+          <div class="col-4">
+             <img src="https://www.cityworks.com/wp-content/uploads/2021/06/Innovate_Sponsors-White-Esri.png" alt="logo" class="img-logo">
+          </div>
+
+
+            <div class="col-4 contacto">                
+                <div class="parrf">
+                    <h6 class="headin5_amrc col_white_amrc">Póngase en contacto con nosotros</h6>
+                    <p><img src="/imagenes/mensaje.png" alt="" class="mg">  sostenibilidad@esri.co</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container1">
+        <ul class="foote_bottom_ul_amrc">
+            <li><a href="https://www.esri.co/es-co/home">Colombia</a></li>
+            <li><a href="https://www.esri.co/es-ec/home">Ecuador</a></li>
+            <li><a href="https://www.esri.co/es-pa/home">Panamá</a></li>
+            <p class="parrf2"><a href="#">Creado con @ ArcGIS Hub</a></p>
+        </ul>
+
+        <ul class="social_footer_ul">
+            <li><a href="https://www.facebook.com/EsriColombia"><img src="/imagenes/facebook.png" alt="" class="fb"></a></li>
+            <li><a href="https://www.youtube.com/c/EsriColombia"><img src="/imagenes/youtube.png" alt="" class="yt"></a></li>
+            <li><a href="https://twitter.com/EsriColombia"><img src="/imagenes/twitter.png" alt="" class="tw"></a></li>
+            <li><a href="https://www.linkedin.com/company/esri-colombia/"><img src="/imagenes/linkedin.png" alt="" class="lk"></a></li>
+            <li><a href="https://www.instagram.com/esricolombia/"><img src="/imagenes/instagram.png" alt="" class="ig"></a></li>
+        </ul>
+    </div>
+
+</footer>
+------------------------------------
+<Style>
+body{
+    display: block;
+    margin: 0;
+}
 
 .footer{
-background-color: #2b2b2b;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #2b2b2b;
 }
+
+footer { 
+    width:100%; 
+    background-color: #2b2b2b; 
+    min-height:250px; 
+    padding:10px 0px 25px 0px ;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    padding-right: 10px;
+    padding-left: 80px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    overflow: hidden;
+    width: 300px;
+    backdrop-filter: blur(1rem);
+    color: var(--white-text);
+    height: 10rem;
+}
+
+.card h6{
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+
+.card h2{
+    letter-spacing: .1rem;
+    margin: 1rem 0;
+
+}
+
+.carddiv{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.carddiv i{
+    font-size: 2rem;
+}
+
+.content{
+    padding: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.content p{
+    font-size: 20px;
+}
+
+@media (max-width:1030px){
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+}
+
+.carddiv img{
+    margin: -15px 90px 20px 20px;
+    height: 10rem;
+    width: 15rem;
+    padding: 15px;
+}
+
+.container a{
+    text-decoration: none;
+}
+
+.carddiv1{
+    padding: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.carddiv1 i{
+    font-size: 2rem;
+}
+
+.carddiv1 img{
+    margin: auto;
+    height: 10rem;
+    width: 10rem;
+    padding: 1rem;
+}
+.card1{
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: 5.5rem;
+    overflow: hidden;
+    width: 20rem;
+    backdrop-filter: blur(1rem);
+    color: var(--white-text);
+    height: 23rem;
+}
+
+.card1 h6{
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+
+.card1 h2{
+    letter-spacing: .1rem;
+    margin: 1rem 0;
+
+}
+
 .col_white_amrc { 
     color:#ffffff;
 }
@@ -13,20 +186,7 @@ a{
 }
 
 .col-md{
-    padding: 0px 15px 0px 38px;
-}
-
-
-img{
-    width: 10rem;
-    margin: 20px 0px 0px 280px;
-}
-
-footer { 
-    width:100%; 
-    background-color: #2b2b2b; 
-    min-height:250px; 
-    padding:10px 0px 25px 0px ;
+    padding: 15px 5px 5px 15px;
 }
 
 .pt2 { 
@@ -100,18 +260,23 @@ footer p .mg{
 }
 
 .bottom_border { 
-    border-bottom:1px solid #838282; 
-    padding-bottom:20px;
+    border-bottom:1px solid #838282;
+    padding-bottom:10px;
+    align-items: center;
+    margin: -10px 100px 10px ;
+    width: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .foote_bottom_ul_amrc {
-	list-style-type:none;
-	padding:0px;
-	display:table;
-	margin-top: 10px;
-	margin-right: auto;
-	margin-bottom: 10px;
-	margin-left: auto;
+    list-style-type:none;
+    padding:0px;
+    display:table;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
 }
 
 .foote_bottom_ul_amrc li { 
@@ -149,7 +314,7 @@ footer p .mg{
 }
 
 .parrf{
-    margin: 30px;
+    margin: 12px -90px 3px 20px;
 }
 
 .parrf2{
@@ -189,44 +354,22 @@ footer p .mg{
     margin: 10px;
     height: 40px;
 }
-</style>
-
-<footer class="footer">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <div class="container bottom_border">
-        <div class="row">
-            
-            <div class=" col-sm-4 col-md col-sm-4  col-12 col">
-
-                <p><img src="https://www.cityworks.com/wp-content/uploads/2021/06/Innovate_Sponsors-White-Esri.png" alt="logo"></p>
-            
-            </div>
-
-            <div class=" col-sm-4 col-md col-sm-4  col-12 col">                
-                <div class="parrf">
-                    <h4 class="headin5_amrc col_white_amrc pt2">Póngase en contacto con nosotros</h4>
-                    <p><img src="/Pie-de-pagina/imagenes/mensaje.png" alt="" class="mg">  sostenibilidad@esri.co</p>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="container">
-        <ul class="foote_bottom_ul_amrc">
-            <li><a href="https://www.esri.co/es-co/home">Colombia</a></li>
-            <li><a href="https://www.esri.co/es-ec/home">Ecuador</a></li>
-            <li><a href="https://www.esri.co/es-pa/home">Panamá</a></li>
-            <p class="parrf2"><a href="#">Creado con @ ArcGIS Hub</a></p>
-        </ul>
-
-        <ul class="social_footer_ul" >
-            <li><a href="https://www.facebook.com/EsriColombia"><img src="/Pie-de-pagina/imagenes/facebook.png" alt="" class="fb"></a></li>
-            <li><a href="https://www.youtube.com/c/EsriColombia"><img src="/Pie-de-pagina/imagenes/youtube.png" alt="" class="yt"></a></li>
-            <li><a href="https://twitter.com/EsriColombia"><img src="/Pie-de-pagina/imagenes/twitter.png" alt="" class="tw"></a></li>
-            <li><a href="https://www.linkedin.com/company/esri-colombia/"><img src="/Pie-de-pagina/imagenes/linkedIn.png" alt="" class="lk"></a></li>
-            <li><a href="https://www.instagram.com/esricolombia/"><img src="/Pie-de-pagina/imagenes/instagram.png" alt="ing" class="ig"></a></li>
-        </ul>
-    </div>
-
-</footer>
+.img-logo{
+    width:10rem;
+    margin: -10px -100px -20px;
+}
+      
+.row-footer{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+  
+.contacto{
+    display:flex;
+    flex-direction:center;
+    align-items:center;
+    padding-right: 15px;
+    padding-left: 90px;
+}
+</Style>
